@@ -14,15 +14,15 @@ $aModule = array(
     'email'        => 'info@endereco.de',
     'url'          => 'www.endereco.de',
     'extend' => array(
-        \OxidEsales\Eshop\Application\Component\Widget\WidgetController::class => enderecoAMS\widgets\EnderecoAMSCSSIncludeWidget::class,
-        \OxidEsales\Eshop\Application\Component\Widget\WidgetController::class   => enderecoAMS\widgets\EnderecoModalWidget::class,
-        \OxidEsales\Eshop\Application\Component\Widget\WidgetController::class => enderecoAMS\widgets\EnderecoAMSJSConfigWidget::class,
-        \OxidEsales\Eshop\Application\Controller\FrontendController::class => enderecoAMS\controllers\enderecocontroller::class,
-        \OxidEsales\Eshop\Application\Controller\FrontendController::class => enderecoAMS\controllers\enderecocontroller2::class
+        \OxidEsales\Eshop\Application\Component\Widget\WidgetController::class => \enderecoAMS\widgets\EnderecoAMSCSSIncludeWidget::class,
+        \OxidEsales\Eshop\Application\Component\Widget\WidgetController::class   => \enderecoAMS\widgets\EnderecoModalWidget::class,
+        \OxidEsales\Eshop\Application\Component\Widget\WidgetController::class => \enderecoAMS\widgets\EnderecoAMSJSConfigWidget::class,
+        \OxidEsales\Eshop\Application\Controller\FrontendController::class => \enderecoAMS\controllers\enderecocontroller::class,
+        \OxidEsales\Eshop\Application\Controller\FrontendController::class => \enderecoAMS\controllers\enderecocontroller2::class
     ),
     'controllers' => [
-        'enderecocontroller' => enderecoAMS\controllers\enderecocontroller::class,
-        'enderecocontroller2' => enderecoAMS\controllers\enderecocontroller2::class
+        'enderecocontroller' => \enderecoAMS\controllers\enderecocontroller::class,
+        'enderecocontroller2' => \enderecoAMS\controllers\enderecocontroller2::class
     ],
 /*    'files' => [
         'EnderecoController' => 'enderecoAMS/controllers/enderecocontroller.php',
