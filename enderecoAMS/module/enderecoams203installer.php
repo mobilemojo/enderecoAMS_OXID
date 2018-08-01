@@ -6,7 +6,7 @@
  * Time: 16:31
  */
 
-
+namespace mojo\enderecoAMS;
 class EnderecoAMS203Installer {
 
     public static function onActivate()
