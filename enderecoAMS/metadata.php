@@ -1,5 +1,5 @@
 <?php
-$sMetadataVersion = '1.0';
+$sMetadataVersion = '2.0';
 
 $aModule = array(
     'id'           => 'enderecoams203',
@@ -17,14 +17,14 @@ $aModule = array(
     'controllers' => [
         'EnderecoController' => \OxidEsales\Eshop\Application\Controller\enderecocontroller::class,
         'EnderecoController2' => \OxidEsales\Eshop\Application\Controller\EnderecoController2::class,
-        'EnderecoAMSCSSIncludeWidget' => \OxidEsales\Eshop\Application\Component\Widget\EnderecoAMSCSSIncludeWidget::class,
-        'EnderecoAMSJSConfigWidget' => \OxidEsales\Eshop\Application\Component\Widget\EnderecoAMSJSConfigWidget::class,
-        'EnderecoModalWidget' => \OxidEsales\Eshop\Application\Component\Widget\EnderecoModalWidget::class
     ],
     'templates' => array(
         'widget/enderecoamscssinputfiles.tpl' => 'mojo/enderecoAMS/application/views/widget/enderecoamscssinputfiles.tpl',
         'widget/enderecoamsjsconfig.tpl' => 'mojo/enderecoAMS/application/views/widget/enderecoamsjsconfig.tpl',
-        'widget/enderecomodalwidget.tpl' => 'mojo/enderecoAMS/application/views/widget/enderecomodalwidget.tpl'
+        'widget/enderecomodalwidget.tpl' => 'mojo/enderecoAMS/application/views/widget/enderecomodalwidget.tpl',
+        'EnderecoAMSCSSIncludeWidget' => \OxidEsales\Eshop\Application\Component\Widget\EnderecoAMSCSSIncludeWidget::class,
+        'EnderecoAMSJSConfigWidget' => \OxidEsales\Eshop\Application\Component\Widget\EnderecoAMSJSConfigWidget::class,
+        'EnderecoModalWidget' => \OxidEsales\Eshop\Application\Component\Widget\EnderecoModalWidget::class
     ),
     'blocks' => array(
         ['template' => 'form/user_checkout_registration.tpl', 	'block' => 'user_checkout_registration', 	    'file' => 'jsInputFiles.tpl'],
