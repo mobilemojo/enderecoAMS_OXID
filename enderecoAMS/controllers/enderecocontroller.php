@@ -1,5 +1,5 @@
 <?php
-namespace mojo\enderecoAMS\controllers;
+namespace OxidEsales\Eshop\Application\Controller;
 require_once __DIR__.DIRECTORY_SEPARATOR.'..'.DIRECTORY_SEPARATOR.'sdk'.DIRECTORY_SEPARATOR.'autoload.php';
 class EnderecoController extends \OxidEsales\Eshop\Application\Controller\FrontendController
 {
