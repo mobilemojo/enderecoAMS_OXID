@@ -14,14 +14,18 @@ $aModule = array(
     'email'        => 'info@endereco.de',
     'url'          => 'www.endereco.de',
     'extend' => array(),
-    'controllers' => array(
+    'controllers' => [
         'EnderecoController' => mojo\enderecoAMS\controllers\enderecocontroller::class,
-        'EnderecoController2' => mojo\enderecoAMS\controllers\EnderecoController2::class
-    ),
+        'EnderecoController2' => mojo\enderecoAMS\controllers\EnderecoController2::class,
+        'EnderecoAMSCSSIncludeWidget' => mojo\enderecoAMS\widgets\EnderecoAMSCSSIncludeWidget::class,
+        'EnderecoAMSJSConfigWidget' => mojo\enderecoAMS\widgets\EnderecoAMSJSConfigWidget::class,
+        'EnderecoModalWidget' => mojo\enderecoAMS\widgets\EnderecoModalWidget::class,
+        'EnderecoAMS203Installer' => mojo\enderecoAMS\module\EnderecoAMS203Installer::class
+    ],
     'templates' => array(
-        'widget/enderecoamscssinputfiles.tpl'  => 'mojo/enderecoAMS/application/views/widget/enderecoamscssinputfiles.tpl',
-        'widget/enderecoamsjsconfig.tpl'  => 'mojo/enderecoAMS/application/views/widget/enderecoamsjsconfig.tpl',
-        'widget/enderecomodalwidget.tpl'  => 'mojo/enderecoAMS/application/views/widget/enderecomodalwidget.tpl'
+        'widget/enderecoamscssinputfiles.tpl' => 'mojo/enderecoAMS/application/views/widget/enderecoamscssinputfiles.tpl',
+        'widget/enderecoamsjsconfig.tpl' => 'mojo/enderecoAMS/application/views/widget/enderecoamsjsconfig.tpl',
+        'widget/enderecomodalwidget.tpl' => 'mojo/enderecoAMS/application/views/widget/enderecomodalwidget.tpl'
     ),
     'blocks' => array(
         ['template' => 'form/user_checkout_registration.tpl', 	'block' => 'user_checkout_registration', 	    'file' => 'jsInputFiles.tpl'],
