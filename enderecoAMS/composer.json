@@ -25,7 +25,7 @@
     },
     "autoload":    {
         "psr-4": {
-            "mobilemojo\\enderecoAMS_OXID\\": "../../../source/modules/mojo/enderecoAMS"
+            "OxidEsales\\Eshop\\": "../../../source/modules/mojo/enderecoAMS"
         }
     }
 }
