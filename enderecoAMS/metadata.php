@@ -47,7 +47,7 @@ $aModule = array(
         ['group' => 'enderecoAMSFrontend', 'name' => 'enderecoAMSShowAllCityNames', 'type' => 'bool', 'value' => 'true'],
     ),
     'events' => array(
-        'onActivate'   => mojo\enderecoAMS\module\EnderecoAMS203Installer::class.'::onActivate',
-        'onDeactivate' => mojo\enderecoAMS\module\EnderecoAMS203Installer::class.'::onDeactivate',
+        'onActivate'   => mojo\enderecoAMS\EnderecoAMS203Installer::class.'::onActivate',
+        'onDeactivate' => mojo\enderecoAMS\EnderecoAMS203Installer::class.'::onDeactivate',
     )
 );
