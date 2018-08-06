@@ -13,14 +13,14 @@ $aModule = array(
     'author'       => 'endereco',
     'email'        => 'info@endereco.de',
     'url'          => 'www.endereco.de',
-    'extend' => array(
-        \OxidEsales\Eshop\Application\Component\Widget\WidgetController::class => \mojo\enderecoAMS\EnderecoAMSCSSIncludeWidget::class,
-        \OxidEsales\Eshop\Application\Component\Widget\WidgetController::class => \mojo\enderecoAMS\EnderecoModalWidget::class,
-        \OxidEsales\Eshop\Application\Component\Widget\WidgetController::class => \mojo\enderecoAMS\EnderecoAMSJSConfigWidget::class
-    ),
+    'extend' => array(),
     'controllers' => array(
-        'enderecocontroller' => mojo\enderecoAMS\enderecocontroller::class,
-        'enderecocontroller2' => mojo\enderecoAMS\enderecocontroller2::class
+        'EnderecoController' => mojo\enderecoAMS\enderecocontroller::class,
+        'EnderecoController2' => mojo\enderecoAMS\EnderecoController2::class,
+        'EnderecoAMSCSSIncludeWidget' => mojo\enderecoAMS\EnderecoAMSCSSIncludeWidget::class,
+        'EnderecoAMSJSConfigWidget' => mojo\enderecoAMS\EnderecoAMSJSConfigWidget::class,
+        'EnderecoModalWidget' => mojo\enderecoAMS\EnderecoModalWidget::class,
+        'EnderecoAMS203Installer' => mojo\enderecoAMS\EnderecoAMS203Installer::class
     ),
     'templates' => array(
         'widget/enderecoamscssinputfiles.tpl'  => 'enderecoAMS/application/views/widget/enderecoamscssinputfiles.tpl',
