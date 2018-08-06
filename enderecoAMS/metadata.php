@@ -15,11 +15,11 @@ $aModule = array(
     'url'          => 'www.endereco.de',
     'extend' => array(),
     'controllers' => [
-        'EnderecoController' => \OxidEsales\Eshop\Application\Controller\enderecocontroller::class,
-        'EnderecoController2' => \OxidEsales\Eshop\Application\Controller\EnderecoController2::class,
-        'EnderecoAMSCSSIncludeWidget' => \OxidEsales\Eshop\Application\Component\Widget\EnderecoAMSCSSIncludeWidget::class,
-        'EnderecoAMSJSConfigWidget' => \OxidEsales\Eshop\Application\Component\Widget\EnderecoAMSJSConfigWidget::class,
-        'EnderecoModalWidget' => \OxidEsales\Eshop\Application\Component\Widget\EnderecoModalWidget::class
+        'EnderecoController' => \mojo\enderecoAMS\enderecocontroller::class,
+        'EnderecoController2' => \mojo\enderecoAMS\EnderecoController2::class,
+        'EnderecoAMSCSSIncludeWidget' => \mojo\enderecoAMS\EnderecoAMSCSSIncludeWidget::class,
+        'EnderecoAMSJSConfigWidget' => \mojo\enderecoAMS\EnderecoAMSJSConfigWidget::class,
+        'EnderecoModalWidget' => \mojo\enderecoAMS\EnderecoModalWidget::class
     ],
     'templates' => array(
         'widget/enderecoamscssinputfiles.tpl' => 'mojo/enderecoAMS/application/views/widget/enderecoamscssinputfiles.tpl',
