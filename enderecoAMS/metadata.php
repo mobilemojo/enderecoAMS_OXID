@@ -1,5 +1,5 @@
 <?php
-$sMetadataVersion = '2.0';
+$sMetadataVersion = '1.0';
 
 $aModule = array(
     'id'           => 'enderecoams203',
@@ -15,12 +15,12 @@ $aModule = array(
     'url'          => 'www.endereco.de',
     'extend' => array(),
     'controllers' => [
-        'EnderecoController' => mojo\enderecoAMS\controllers\enderecocontroller::class,
-        'EnderecoController2' => mojo\enderecoAMS\controllers\EnderecoController2::class,
-        'EnderecoAMSCSSIncludeWidget' => mojo\enderecoAMS\widgets\EnderecoAMSCSSIncludeWidget::class,
-        'EnderecoAMSJSConfigWidget' => mojo\enderecoAMS\widgets\EnderecoAMSJSConfigWidget::class,
-        'EnderecoModalWidget' => mojo\enderecoAMS\widgets\EnderecoModalWidget::class,
-        'EnderecoAMS203Installer' => mojo\enderecoAMS\module\EnderecoAMS203Installer::class
+        'EnderecoController' => \mojo\enderecoAMS\controllers\enderecocontroller::class,
+        'EnderecoController2' => \mojo\enderecoAMS\controllers\EnderecoController2::class,
+        'EnderecoAMSCSSIncludeWidget' => \mojo\enderecoAMS\widgets\EnderecoAMSCSSIncludeWidget::class,
+        'EnderecoAMSJSConfigWidget' => \mojo\enderecoAMS\widgets\EnderecoAMSJSConfigWidget::class,
+        'EnderecoModalWidget' => \mojo\enderecoAMS\widgets\EnderecoModalWidget::class,
+        'EnderecoAMS203Installer' => \mojo\enderecoAMS\module\EnderecoAMS203Installer::class
     ],
     'templates' => array(
         'widget/enderecoamscssinputfiles.tpl' => 'mojo/enderecoAMS/application/views/widget/enderecoamscssinputfiles.tpl',
@@ -47,8 +47,8 @@ $aModule = array(
         ['group' => 'enderecoAMSStyling', 'name' => 'enderecoAMSBootstrapModalCss', 'type' => 'bool', 'value' => 'true'],
         ['group' => 'enderecoAMSFrontend', 'name' => 'enderecoAMSShowAllCityNames', 'type' => 'bool', 'value' => 'true'],
     ),
-    'events'      => array(
+    'events' => array(
         'onActivate'   => mojo\enderecoAMS\module\EnderecoAMS203Installer::class.'::onActivate',
         'onDeactivate' => mojo\enderecoAMS\module\EnderecoAMS203Installer::class.'::onDeactivate',
-    ),
+    )
 );
