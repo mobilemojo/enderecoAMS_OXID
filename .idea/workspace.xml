@@ -17,8 +17,8 @@
       <file leaf-file-name="metadata.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/enderecoAMS/metadata.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="60" lean-forward="false" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
+            <state relative-caret-position="341">
+              <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -232,12 +232,12 @@
       <workItem from="1532609638147" duration="7029000" />
       <workItem from="1532942031284" duration="39396000" />
       <workItem from="1533192826200" duration="3949000" />
-      <workItem from="1533534925635" duration="1324000" />
+      <workItem from="1533534925635" duration="2266000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70367000" />
+    <option name="totallyTimeSpent" value="71309000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
@@ -402,8 +402,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/enderecoAMS/metadata.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="60" lean-forward="false" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
+        <state relative-caret-position="341">
+          <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
           <folding />
         </state>
       </provider>
