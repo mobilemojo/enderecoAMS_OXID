@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'enderecomodul' => array($baseDir . '/../../../source/modules/mojo/enderecomodul'),
+    'mojo\\enderecoAMS\\' => array($baseDir . '/../../../source/modules/mojo/enderecoAMS'),
 );
