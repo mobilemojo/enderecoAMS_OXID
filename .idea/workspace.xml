@@ -18,37 +18,7 @@
         <entry file="file://$PROJECT_DIR$/enderecoAMS/metadata.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="22" column="84" lean-forward="true" selection-start-line="22" selection-start-column="84" selection-end-line="22" selection-end-column="84" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="enderecoamscssincludewidget.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/enderecoAMS/widgets/enderecoamscssincludewidget.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="105" lean-forward="false" selection-start-line="2" selection-start-column="105" selection-end-line="2" selection-end-column="105" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="enderecoamsjsconfigwidget.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/enderecoAMS/widgets/enderecoamsjsconfigwidget.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="40" lean-forward="false" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="enderecomodalwidget.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/enderecoAMS/widgets/enderecomodalwidget.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="25" />
+              <caret line="22" column="60" lean-forward="false" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -81,12 +51,12 @@
         <option value="$PROJECT_DIR$/enderecomodul/widgets/enderecomodalwidget.php" />
         <option value="$PROJECT_DIR$/enderecomodul/controllers/enderecocontroller.php" />
         <option value="$PROJECT_DIR$/enderecomodul/module/enderecoams203installer.php" />
-        <option value="$PROJECT_DIR$/enderecoAMS/widgets/enderecoamsjsconfigwidget.php" />
-        <option value="$PROJECT_DIR$/enderecoAMS/widgets/enderecomodalwidget.php" />
         <option value="$PROJECT_DIR$/enderecoAMS/controllers/enderecocontroller.php" />
         <option value="$PROJECT_DIR$/enderecoAMS/controllers/enderecocontroller2.php" />
         <option value="$PROJECT_DIR$/enderecoAMS/module/enderecoams203installer.php" />
         <option value="$PROJECT_DIR$/enderecoAMS/widgets/enderecoamscssincludewidget.php" />
+        <option value="$PROJECT_DIR$/enderecoAMS/widgets/enderecoamsjsconfigwidget.php" />
+        <option value="$PROJECT_DIR$/enderecoAMS/widgets/enderecomodalwidget.php" />
         <option value="$PROJECT_DIR$/enderecoAMS/metadata.php" />
       </list>
     </option>
@@ -262,12 +232,12 @@
       <workItem from="1532609638147" duration="7029000" />
       <workItem from="1532942031284" duration="39396000" />
       <workItem from="1533192826200" duration="3949000" />
-      <workItem from="1533534925635" duration="714000" />
+      <workItem from="1533534925635" duration="1324000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69757000" />
+    <option name="totallyTimeSpent" value="70367000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
@@ -375,30 +345,6 @@
     <entry file="file://$PROJECT_DIR$/enderecomodul/widgets/enderecomodalwidget.php" />
     <entry file="file://$PROJECT_DIR$/enderecomodul/module/enderecoams203installer.php" />
     <entry file="file://$PROJECT_DIR$/enderecomodul/controllers/enderecocontroller.php" />
-    <entry file="file://$PROJECT_DIR$/enderecoAMS/controllers/enderecocontroller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="26" lean-forward="false" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/enderecoAMS/controllers/enderecocontroller2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="26" lean-forward="false" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/enderecoAMS/module/enderecoams203installer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/enderecoAMS/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -406,26 +352,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/enderecoAMS/widgets/enderecomodalwidget.php">
+    <entry file="file://$PROJECT_DIR$/enderecoAMS/controllers/enderecocontroller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="25" />
+        <state relative-caret-position="15">
+          <caret line="1" column="38" lean-forward="false" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/enderecoAMS/widgets/enderecoamsjsconfigwidget.php">
+    <entry file="file://$PROJECT_DIR$/enderecoAMS/controllers/enderecocontroller2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="40" lean-forward="false" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
+        <state relative-caret-position="15">
+          <caret line="1" column="38" lean-forward="false" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/enderecoAMS/module/enderecoams203installer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/enderecoAMS/widgets/enderecoamscssincludewidget.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="105" lean-forward="false" selection-start-line="2" selection-start-column="105" selection-end-line="2" selection-end-column="105" />
+        <state relative-caret-position="15">
+          <caret line="1" column="34" lean-forward="false" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/enderecoAMS/widgets/enderecoamsjsconfigwidget.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="34" lean-forward="false" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/enderecoAMS/widgets/enderecomodalwidget.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="34" lean-forward="false" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
           <folding />
         </state>
       </provider>
@@ -433,7 +403,7 @@
     <entry file="file://$PROJECT_DIR$/enderecoAMS/metadata.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="22" column="84" lean-forward="true" selection-start-line="22" selection-start-column="84" selection-end-line="22" selection-end-column="84" />
+          <caret line="22" column="60" lean-forward="false" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
           <folding />
         </state>
       </provider>

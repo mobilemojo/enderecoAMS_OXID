@@ -1,5 +1,5 @@
 <?php
-namespace mojo\enderecoAMS;
+namespace mojo\enderecoAMS\widgets;
 class EnderecoAMSCSSIncludeWidget extends \OxidEsales\Eshop\Application\Component\Widget\WidgetController
 {
 
